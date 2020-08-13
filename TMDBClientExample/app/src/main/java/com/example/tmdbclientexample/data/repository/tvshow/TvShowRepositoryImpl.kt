@@ -1,7 +1,7 @@
 package com.example.tmdbclientexample.data.repository.tvshow
 
 import android.util.Log
-import com.example.tmdbclientexample.data.domain.repository.TvShowRepository
+import com.example.tmdbclientexample.domain.repository.TvShowRepository
 import com.example.tmdbclientexample.data.model.tvshow.TvShow
 import com.example.tmdbclientexample.data.repository.artist.datasource.TvShowCacheDatasource
 import com.example.tmdbclientexample.data.repository.artist.datasource.TvShowLocalDatasource

@@ -1,7 +1,7 @@
 package com.example.tmdbclientexample.data.repository.movie
 
 import android.util.Log
-import com.example.tmdbclientexample.data.domain.repository.MovieRepository
+import com.example.tmdbclientexample.domain.repository.MovieRepository
 import com.example.tmdbclientexample.data.model.movie.Movie
 import com.example.tmdbclientexample.data.repository.movie.datasource.MovieCacheDatasource
 import com.example.tmdbclientexample.data.repository.movie.datasource.MovieLocalDatasource

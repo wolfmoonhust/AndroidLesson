@@ -1,6 +1,5 @@
-package com.example.tmdbclientexample.data.domain.repository
+package com.example.tmdbclientexample.domain.repository
 
-import com.example.tmdbclientexample.data.model.movie.Movie
 import com.example.tmdbclientexample.data.model.tvshow.TvShow
 
 interface TvShowRepository {

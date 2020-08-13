@@ -13,7 +13,7 @@ class TvShowRemoteDatasourceImpl(
     private val apiKey: String
 ) :
     TvShowRemoteDatasource {
-    override suspend fun getArtists(): Response<TvShowList> {
+    override suspend fun getTvShows(): Response<TvShowList> {
         return tmdbService.getPopularTvShows(apiKey)
     }
 }
