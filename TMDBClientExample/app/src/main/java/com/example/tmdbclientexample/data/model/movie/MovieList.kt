@@ -1,6 +1,6 @@
-package com.example.tmdbclientexample.data
+package com.example.tmdbclientexample.data.model.movie
 
-import com.example.tmdbclientexample.data.Movie
+import com.example.tmdbclientexample.data.model.movie.Movie
 
 data class MovieList(
     val page: Int,
