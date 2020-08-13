@@ -5,7 +5,6 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.tmdbclientexample.data.model.artist.Artist
-import com.example.tmdbclientexample.data.model.tvshow.TvShow
 
 @Dao
 interface ArtistDao {
@@ -16,5 +15,5 @@ interface ArtistDao {
     suspend fun deleteAllArtists()
 
     @Query("SELECT * FROM popular_artists")
-    suspend fun getMovies( artists: List<Artist>)
+    suspend fun getArtists(): List<Artist>
 }
