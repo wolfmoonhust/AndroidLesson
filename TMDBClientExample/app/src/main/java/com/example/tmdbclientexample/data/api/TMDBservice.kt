@@ -11,13 +11,13 @@ import retrofit2.http.Query
 
 interface TMDBservice {
     @GET("movie/popular")
-    suspend fun getPopularMovies(@Query("api_key")apiKey: String): Response<MovieList>
+    suspend fun getPopularMovies(@Query("api_key") apiKey: String): Response<MovieList>
 
     @GET("tv/popular")
-    suspend fun getPopularTvShows(@Query("api_key")apiKey: String): Response<TvShowList>
+    suspend fun getPopularTvShows(@Query("api_key") apiKey: String): Response<TvShowList>
 
     @GET("person/popular")
-    suspend fun getPopularArtists(@Query("api_key")apiKey: String): Response<ArtistList>
+    suspend fun getPopularArtists(@Query("api_key") apiKey: String): Response<ArtistList>
 }
 
 
